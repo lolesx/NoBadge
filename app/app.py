@@ -1,17 +1,13 @@
-try:
-    from colorama import Fore, Style
-    import random
-    from discord import Embed
-    import requests
-    import os
-    import inspect
-    import tkinter as tk
-    from tkinter import messagebox
-    from pystyle import Add, Colors, Colorate, Center, Write
-    import sys
-
-except ImportError:
-    os.system('pip install colorama requests discord os inspect tkinter sys pystyle')
+from colorama import Fore, Style
+import random
+from discord import Embed
+import requests
+import os
+import inspect
+import tkinter as tk
+from tkinter import messagebox
+from pystyle import Add, Colors, Colorate, Center, Write
+import sys
 
 def main():
     os.system("pip install discord.py==2.2.3")
